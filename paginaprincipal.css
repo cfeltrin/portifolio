@@ -1,0 +1,46 @@
+root {
+    --cor-principal: rgb(141, 104, 124);
+    --cor-secundaria: rgb(96, 165, 148);
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    border-bottom: 1px solid var(--cor-secundaria);
+}
+
+nav ul li a {
+    background-color: var(--cor-principal);
+    color: rgb(192, 144, 176);
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    background:transition.3s;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body{
+    background-color:rgb(236, 198, 225);
+    color: rgb(0, 0, 0);
+    font-family: Roboto Condensed; 
+}
+h1{
+
+ font-family: Roboto Condensed;
+ font-size: xx-large;
+ 
+ text-align: center;
+}
+li{
+    font-size:x-large;
+}
